@@ -99,15 +99,15 @@ document.addEventListener('DOMContentLoaded', () => {
     resultModal.style.display = 'block';
   });
 
-  closeButton.addEventListener('click', () => {
-    resultModal.style.display = 'none';
-  });
+  if (closeButton) {
+    closeButton.addEventListener('click', () => {
+      resultModal.style.display = 'none';
+    });
+  }
 
   window.addEventListener('click', (event) => {
     if (event.target === resultModal) {
       resultModal.style.display = 'none';
-
-      
     }
   });
   
