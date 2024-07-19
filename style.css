@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Delicious+Handrawn&family=Jersey+10&family=Noto+Kufi+Arabic:wght@100..900&family=Noto+Sans+Malayalam:wght@100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Scribble&family=Rubik:ital,wght@0,300..900;1,300..900&family=Shadows+Into+Light&family=Workbench&display=swap');
+
+
+.ttl h1 , .start-1{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 3em;
+}
+.ttl img{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+  background-image: url("images/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.ttl button{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+  font-size: 2em;
+}
+.form-btn{
+  text-align: center;
+  width: 10em;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+}
+.required{
+  color: red;
+}
+#green-colour{
+  accent-color: green;
+}
+#clock h1{
+  font-family: "Workbench", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-size: 4em;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+    letter-spacing: 2px;
+}
+
+/* for smaller screens below 700px */
+@media only screen and (max-width: 700px) {
+body {
+  font-size: 1.8rem;
+}
+}
+
+/*for smaller screens below 300px*/
+@media only screen and (max-width: 300px) {
+body {
+  font-size: 1.6rem;
+}
+}
+
+
+/* Box codes */
+
+.box-1{
+  background-image: url("images/1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+.box-1 h3 , .box-2 h3 , .box-3 h3 , .box-4 h3 , .box-5 h3 , .box-6 h3 , .box-7 h3 , .box-8 h3 , .box-9 h3 , .box-10 h3 , .box-11 h3 , .box-12 h3{
+  font-size: 4em;
+}
+.box-1 label , .box-2 label , .box-3 label , .box-4 label , .box-5 label , .box-6 label , .box-7 label , .box-8 label , .box-9 label , .box-10 label , .box-11 label , .box-12 label{
+  font-weight: bolder;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.custom-checkbox{
+  height: 1em;
+  width: 1em;
+}
+.custom-time{
+  font-size: 1.5em;
+}
+
+.box-2{
+  background-image: url("images/2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+
+.box-3{
+  background-image: url("images/3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+.box-4{
+  background-image: url("images/4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+.box-5{
+  background-image: url("images/5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+
+.box-6{
+  background-image: url("images/6.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+.box-7{
+  background-image: url("images/7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+
+.box-8{
+  background-image: url("images/8.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+
+.box-9{
+  background-image: url("images/9.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+
+.box-10{
+  background-image: url("images/10.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+
+
+.box-11{
+  background-image: url("images/11.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+
+
+.box-12{
+  background-image: url("images/12.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+
+.get{
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+/* Result */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%;
+  text-align: center;
+  background-image: url("images/certificate-background-template-design-8673c42070573c71a94b91e9b8c45afc_screen.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.close-button {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cerificate{
+  width: 20em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cert-h{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 3em;
+  text-align: center;
+}
+
+.ad{
+  width: 40em;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#printButton{
+  width: 10em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.time-last{
+  width: 10%;
+}
